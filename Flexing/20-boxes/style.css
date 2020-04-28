@@ -1,0 +1,56 @@
+
+.container{
+	border: 2px solid cornflowerblue;
+	display: flex;
+	justify-content: center;
+	margin: 2% auto;
+	padding: 2% 0;
+	max-width: 80%;
+}
+
+.container:hover{
+	background: salmon;
+}
+
+.container:hover > .cargo{
+	background: purple;
+}
+
+.cargo{
+	width: 70px;
+	height: 70px;
+	background: cornflowerblue;
+	margin: 10px;
+}
+
+.backbutton{
+	background-color: #222;
+	border-radius: 25%;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	font-size: 18px;
+	opacity: 0.2;
+  }
+  
+  .backbutton:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
+  .backlink{
+	  text-decoration: none;
+	  color: white;
+  }
+  
+  .backlink:hover{
+	  color: #FFDC00;
+	  opacity: 1;
+	  transition-duration: 0.5s;
+  }
+  
